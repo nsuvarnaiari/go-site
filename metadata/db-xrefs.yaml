@@ -2066,9 +2066,9 @@
     - type_name: protein
       type_id: PR:000000001
       id_syntax: ([OPQ][0-9][A-Z0-9]{3}[0-9]|[A-NR-Z][0-9]([A-Z][A-Z0-9]{2}[0-9]){1,2}){1}(-[0-9]+){0,1}|[0-9]{9}
-      url_syntax: https://proconsortium.org/app/entry/PR_[example_id]
+      url_syntax: https://purl.obolibrary.org/obo/PR_[example_id]
       example_id: PR:Q64445
-      example_url: https://proconsortium.org/app/entry/PR_Q64445
+      example_url: https://purl.obolibrary.org/obo/PR_000060258
 - database: PRINTS
   name: PRINTS compendium of protein fingerprints
   generic_urls:
@@ -2804,6 +2804,17 @@
       id_syntax: UR[0-9]{9}|MF_[0-9]{5}|PIRNR[0-9]{6}|PRU[0-9]{5}|RU[0-9]{6}
       example_id: UniRule:UR000107224
       example_url: https://www.uniprot.org/unirule/UR000107224
+- database: ARBA
+  name: ARBA machine learning models for automatic annotation of UniProtKB unreviewed entries
+  generic_urls:
+    - https://www.uniprot.org/arba/
+  entity_types:
+    - type_name: entity
+      type_id: BET:0000000
+      url_syntax: https://www.uniprot.org/arba/[example_id]
+      id_syntax: ARBA[0-9]{8}
+      example_id: ARBA:ARBA00000001
+      example_url: https://www.uniprot.org/arba/ARBA00000001
 - database: VZ
   name: ViralZone
   generic_urls:

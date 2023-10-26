@@ -4,9 +4,9 @@ This is a collection of references used by the GO Consortium
 
 To see how to add to this file, see [README-editors.md](README-editors.md)
 
- * <a href="#goref0000001">GO_REF:0000001 GO Consortium unpublished data</a>
+ * <a href="#goref0000001">GO_REF:0000001 OBSOLETE GO Consortium unpublished data</a>
  * <a href="#goref0000002">GO_REF:0000002 Gene Ontology annotation through association of InterPro records with GO terms.</a>
- * <a href="#goref0000003">GO_REF:0000003 Gene Ontology annotation based on Enzyme Commission mapping.</a>
+ * <a href="#goref0000003">GO_REF:0000003 Gene Ontology annotation based on Enzyme Commission mapping</a>
  * <a href="#goref0000004">GO_REF:0000004 Gene Ontology annotation based on UniProtKB keyword mapping.</a>
  * <a href="#goref0000006">GO_REF:0000006 OBSOLETE Gene Ontology annotation by the MGI curatorial staff, Mouse Locus Catalog</a>
  * <a href="#goref0000008">GO_REF:0000008 Gene Ontology annotation by the MGI curatorial staff, curated orthology</a>
@@ -47,7 +47,7 @@ To see how to add to this file, see [README-editors.md](README-editors.md)
  * <a href="#goref0000048">GO_REF:0000048 OBSOLETE TIGR's Eukaryotic Manual Gene Ontology Assignment Method</a>
  * <a href="#goref0000049">GO_REF:0000049 OBSOLETE Automatic transfer of experimentally verified manual GO annotation data to fungal orthologs using Ensembl Compara</a>
  * <a href="#goref0000050">GO_REF:0000050 Manual transfer of GO annotation data to genes by curator judgment of sequence model</a>
- * <a href="#goref0000051">GO_REF:0000051 S. pombe keyword mapping</a>
+ * <a href="#goref0000051">GO_REF:0000051 OBSOLETE S. pombe keyword mapping</a>
  * <a href="#goref0000052">GO_REF:0000052 Gene Ontology annotation based on curation of immunofluorescence data</a>
  * <a href="#goref0000053">GO_REF:0000053 OBSOLETE Automatic classification of GO using the ELK reasoner</a>
  * <a href="#goref0000054">GO_REF:0000054 Gene Ontology annotation based on curation of intracellular localizations of expressed fusion proteins in living cells.</a>
@@ -118,7 +118,7 @@ To see how to add to this file, see [README-editors.md](README-editors.md)
 
 <a name="goref0000001"/>
 
-## GO Consortium unpublished data
+## OBSOLETE GO Consortium unpublished data
 
  * id: [GO_REF:0000001](https://github.com/geneontology/go-site/blob/master/metadata/gorefs/goref-0000001.md)
  * year: 1998
@@ -128,9 +128,7 @@ To see how to add to this file, see [README-editors.md](README-editors.md)
 
 No abstract available.
 
-## Comments
 
-This reference will normally be replaced upon publication of the data supporting the annotation. Formerly GOC:unpublished.
 
 <a name="goref0000002"/>
 
@@ -148,15 +146,15 @@ This reference will normally be replaced upon publication of the data supporting
 
 
 
-Transitive assignment of GO terms based on InterPro classification. For any database entry (representing a protein or protein-coding gene) that has been annotated with one or more InterPro domains, The corresponding GO terms are obtained from a translation table of InterPro entries to GO terms (interpro2go) generated manually by the InterPro team at EBI. The mapping file is available at http://www.geneontology.org/external2go/interpro2go.
+Transitive assignment of GO terms based on InterPro classification. For any database entry (representing a protein or protein-coding gene) that has been annotated with one or more InterPro domains, the corresponding GO terms are obtained from a translation table of InterPro entries to GO terms (interpro2go) generated manually by the InterPro team at EBI. The mapping file is available at http://www.geneontology.org/external2go/interpro2go.
 
 ## Comments
 
-Formerly GOA:interpro. Note that GO annotations based on InterPro-to-GO transitive assignment may undergo subsequent filtering, e.g. to remove annotations redundant with manual curation; consult documentation from the annotation providers for further information.
+Note that some groups filter GO annotations based on InterPro-to-GO transitive assignment, e.g. to remove annotations redundant with manual curation.
 
 <a name="goref0000003"/>
 
-## Gene Ontology annotation based on Enzyme Commission mapping.
+## Gene Ontology annotation based on Enzyme Commission mapping
 
  * id: [GO_REF:0000003](https://github.com/geneontology/go-site/blob/master/metadata/gorefs/goref-0000003.md)
  * year: 2001
@@ -170,10 +168,6 @@ Formerly GOA:interpro. Note that GO annotations based on InterPro-to-GO transiti
 
 
 Transitive assignment using Enzyme Commission identifiers. This method is used for any database entry, such as a protein record in UniProtKB or TrEMBL, that has had an Enzyme Commission number assigned. The corresponding GO term is determined using the EC cross-references in the GO molecular function ontology. Also see Hill et al., Genomics (2001) 74:121-128. The mapping file is available at http://www.geneontology.org/external2go/ec2go.
-
-## Comments
-
-Formerly GOA:spec.
 
 <a name="goref0000004"/>
 
@@ -736,7 +730,7 @@ Transitive assignment of GO terms to a gene based on a curator's judgment of its
 
 <a name="goref0000051"/>
 
-## S. pombe keyword mapping
+## OBSOLETE S. pombe keyword mapping
 
  * id: [GO_REF:0000051](https://github.com/geneontology/go-site/blob/master/metadata/gorefs/goref-0000051.md)
  * year: 2012
